@@ -1,0 +1,35 @@
+.App {
+  width: 70vh;
+  margin: 5rem auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+h2 {
+  color: rgba(19, 19, 41, 0.726);
+}
+
+input,
+select {
+  padding: 7px;
+  height: 30px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(182, 182, 182);
+  margin-bottom: 0.3rem;
+}
+
+form p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  color: red;
+  font-size: 12px;
+}
+
+input:focus {
+  border: 1px solid rgb(0, 208, 255);
+}
